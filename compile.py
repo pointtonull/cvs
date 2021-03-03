@@ -37,11 +37,20 @@ def find_tags(master):
 
 def versionize(text, tags):
     for group, tag in tags:
-        tag_text = r"%s:[\w,]*%s[\w,]*" % (group, tag)
-        tag_re = r"(?m)%%\s*%s$" % tag_text
-        text = re.sub(tag_re, "%% selected bc: %s." % tag_text, text)
+        tag_text = r"%s/%s" % (group, tag)
+        tag_re = re.compile(r"(?m)%%\s*%s$" % tag_text)
+        try:
+            text = re.sub(tag_re, "%% selected bc: %s." % tag_text, text)
+        except re.error:
+            print("Could not apply change for tag_re(%s)." % tag_re)
+            raise
         group_re = r"(?m)^(.*)\s*%%\s*%s:[\w,]+$" % group
-        text = re.sub(group_re, r"%% \1 %% commented bc: %s." % tag_text, text)
+
+        try:
+            text = re.sub(group_re, r"%% \1 %% commented bc: %s." % tag_text, text)
+        except re.error:
+            print("Could not apply change for tag_text(%s)." % tag_text)
+            raise
     return text
 
 

@@ -7,8 +7,9 @@
 \MakeOuterQuote{"}
 
 %% moderncv themes
-\moderncvstyle{classic} % black
-%\moderncvtheme[blue]{classic}
+%\moderncvstyle{classic} % black
+\moderncvtheme[blue]{classic}
+% \moderncvtheme[green]{classic}
 %\moderncvtheme[red]{classic}
 %\moderncvtheme[grey]{classic}
 %\moderncvtheme[grey]{casual}
@@ -19,22 +20,18 @@
 \recomputelengths
 
 \firstname{Carlos M.} \familyname{Cabrera}
-\title{Data Engineer}                                                            % title:de
-\title{Python Expert}                                                            % title:pe
-\title{Senior Software Engineer}                                                 % title:sse
-\phone{+54-9387-611-0717}
+\title{Senior Software Engineer}
+%\phone{+35-385-270-7906}
 \email{point.to@gmail.com}
-%\social{http://pointtonull.github.io}
+\social{http://pointtonull.github.io}
 \social[linkedin]{pointtonull}
 \social[github]{pointtonull}
 
-\quote{Python engineer with 10+ years of experience, seeking roles in AI and ML.} % title:pe,sse
-\quote{Python expert with experience in Data Mining and Machine Learning.}       % title:de
+\quote{"In a time of drastic change, it is the learners who inherit the future."
+       ― Eric Hoffer}
 
 \emptysection{}
-
 \nopagenumbers{}
-
 
 \begin{document}
 
@@ -42,70 +39,166 @@
 
 \maketitle
 
-\cvitem{Note:}{\small This is the short version of this document.}                      % version:short
-\cvitem{Note:}{\small This is the academic version of this document.}                   % version:academic
+I am Python Expert with 14+ years of experience, I have strong algorithms and
+architecture experience, with some experience managing small teams.
 
 \section{Top Skills}
 
     \cvcomputer
-        {Programming}{\textbf{Python, C, JavaScript, Go, Rust, Haskell, Erlang}} % title:de
-        {Programming}{\textbf{Python, JavaScript, C, Rust}}                      % title:pe
-        {Programming}{\textbf{Python, C, JavaScript, Go, Rust, Ruby, Haskell}}   % title:sse
-        {Databases}{\textbf{DynamoDB, MongoDB, PostgreSQL, MySQL}}
+        {Programming}{\textbf{Python, JavaScript, Go, Rust, Erlang, C++, Haskell}}
+        {Databases}{\textbf{DynamoDB, MySQL, MongoDB, PostgreSQL}}
 
     \cvcomputer
         {Cloud}{\textbf{AWS, Google}}
-        {API}{\textbf{Chalice, Django, Flask, Tornado}}
+        {API}{\textbf{Flask, FastAPI, Chalice, Django, Tornado}}
 
     \cvcomputer
         {Scripting}{\textbf{AWK, Sh/Bash, Sed, Perl}}
-        {Others}{\textbf{Scripting, Git, RESTfull, Linux}}                       % title:de
-        {Others}{\textbf{Scripting, Git, RESTfull, Linux}}                       % title:pe
-        {Others}{\textbf{Linux, Scripting, Git, RESTfull}}                       % title:sse
+        {Others}{\textbf{Airflow, Git, Linux, RESTfull}}
 
 
 \section{Recent Professional Experience}                                         % version:short
-\section{Professional Experience}                                                % version:long
 \section{Professional Experience}                                                % version:academic
+\section{Professional Experience}                                                % version:long
+
+    % \cventry
+    %     {2021}
+    %     {Software Engineer}
+    %     {\href{https://www.globality.com}{Globality}} {} {}
+    %     {
+    %         Senior Software Engineer
+    %         Achievements:
+    %         \begin{itemize}
+    %             \item Designed and implemented a reliable web-crawler
+    %                   using a combination of AWS Batch and Serverless
+    %                   technologies to optimize costs.
+    %                   Setup and operation of our Datalake
+    %         \end{itemize}
+    %         Skills:
+    %         \begin{itemize}
+    %             \item architecture: AWS Redshift, AWS Batch, AWS Serverless, Docker
+    %             \item languages: Python, PostgreSQL, JavaScript, AWK
+    %             \item libraries: Airflow, Requests, Backof, Numpy
+    %             \item cvs/cd/ci: Jenkins, Github
+    %         \end{itemize}
+    %     }
 
     \cventry
-        {2018--Present}
-        {Data Engineer}                                                          % title:de
-        {Senior Software Engineer}                                               % title:pe,sse
+        {2020}
+        {Software Engineer}
+        {\href{https://www.dugout.com}{Dugout}} {} {}
+        {
+            Senior Data Pipeline Engineer
+            Achievements:
+            \begin{itemize}
+                \item Designed and implemented a reliable web-crawler
+                      using a combination of AWS Batch and Serverless
+                      technologies to optimize costs.
+                      Setup and operation of our Datalake
+            \end{itemize}
+            Skills:
+            \begin{itemize}
+                \item architecture: AWS Redshift, AWS Batch, AWS Serverless, Docker
+                \item languages: Python, PostgreSQL, JavaScript, AWK
+                \item libraries: Airflow, Requests, Backof, Numpy
+                \item cvs/cd/ci: Jenkins, Github
+            \end{itemize}
+        }
+
+    \cventry
+        {2019}
+        {Software Engineer}
+        {\href{https://www.pointy.com}{Pointy}} {} {}
+        {
+            Fullstack developer in a small team with agile methodologies.
+            Achievements:
+            \begin{itemize}
+                \item Created a novel algorithm for ads biding strategies
+                      optimization that improved 40\% our customers'
+                      bottom line increased.
+            \end{itemize}
+            Skills:
+            \begin{itemize}
+                \item architecture: Google Cloud Platform, AppEngine, NDB
+                \item languages: Python, JavaScript, AWK, Bash
+                \item libraries: Numpy, Pandas, Jupyter, Scipy
+                \item cvs/cd/ci: Jenkins, Github
+            \end{itemize}
+        }
+
+    \cventry
+        {2018}
+        {Senior Software Engineer}
         {\href{https://www.white.space}{White Space}} {} {}
         {
-            Architect and Developer of a Data platform for Finantial
-                Market Research.
-            Cloud Architect using AWS tools.
-            Impulsor of Serverless solutions and creator of CI/CD                % title:sse
-                processes.                                                       % title:sse
-            Maintainer of C++/Python embedded libraries for CPU
-                intensive operations.
+            Cloud Architect and Developer of a Data platform for Financial Market Research.
+            Achievements:
+            \begin{itemize}
+                \item Redesigned Model Learning, lowering training times from 2
+                      hours to 12 minutes.
+                \item Created a Serveless framework that allowed the team to
+                      quickly create customer facing APIs.
+                \item Created a Monitoring library to report near real time
+                      metrics to Datadog in Serverless systems.
+            \end{itemize}
+            Skills:
+            \begin{itemize}
+                \item architecture: AWS, S3, RDS, Lambda, App Sync, Step Functions, Cognito
+                \item cvs/cd/ci: CircleCI, Gitlab
+                \item databases: Aurora, MySQL, DynamoDB
+                \item languages: Python, C++, GraphQL, Bash, AWK
+                \item libraries: Numpy, Jupyter, Scipy, Pandas, PyBind11
+            \end{itemize}
         }
 
     \cventry
         {2015--2017}
-        {Data Engineer}                                                          % title:de
-        {Senior Software Engineer}                                               % title:pe,sse
+        {Senior Software Engineer, Data Analytics}
         {\href{https://alertlogic.com}{Alert Logic}} {} {}
         {
-            Lead Programmer in the creation of self-adapting system for
-                monitoring and reporting on security leaks.
-            Creationg of Reputation algotirthm. Lead developer for
-                Watchlist project.
-            Main responsible for development of Universal Threats
-                Database with Serverless architecture.
+            Achievements:
+            \begin{itemize}
+                \item Designed and Developed self-adapting system for
+                    monitoring and reporting on security leaks.
+                \item Creation a Reputation Algorithm to unify several dimensions
+                \item Main responsible for the development of Universal Threats
+                      Database
+                \item Created framework for high performance APIs
+                \item Lead developer for Watchlist project
+                \item Implemented High-availability ETL
+            \end{itemize}
+            Skills:
+            \begin{itemize}
+                \item architecture: AWS, S3, Lambda, Kinesis, Redshift, ECS, EC2
+                \item cvs/cd/ci: Jenkins
+                \item databases: MongoDB, MySQL, DynamoDB
+                \item languages: Python, Erlang, GraphQL, Elixir, Bash, AWK
+                \item libraries: Requests, Tornado, PyTest, BeautifulSoup,
+                    Numpy, Jupyter, Scipy, Pandas
+            \end{itemize}
         }
 
     \cventry
         {2014--2015}
-        {Data Analyst}
+        {Senior Data Analyst / Team Leader}
         {\href{https://alertlogic.com}{Alert Logic}} {} {}
         {
-            Team Leader for team in charge of creation of parsing rules
-                for high-performance natural language processor.
-            Responsable of the creation of a Tooling effort and author 
-                of the first version of the tooling framework.
+            Created and managed an small team in charge of parsing tree for
+                high-performance natural language processor.
+            Achievements:
+            \begin{itemize}
+                \item Author of the first version of the company NLP framework
+                \item Developed fast kernel mocking of our parsing engine
+                \item I automated testing procedures and quality checks
+            \end{itemize}
+            Skills:
+            \begin{itemize}
+                \item architecture: AWS, S3, ECS, EC2
+                \item cvs/cd/ci: Jenkins
+                \item databases: MySQL, DynamoDB, Redshift
+                \item languages: Python, C++, Erlang, AWK, Bash
+                \item libraries: Requests, PyTest, BeautifulSoup, Numpy, Regex, NLTK
+            \end{itemize}
         }
 
     \cventry
@@ -113,61 +206,56 @@
         {Programmer -- Researcher}
         {\href{http://github.com/pointtonull/golsoft}{Laser Optics Group}} {} {}
         {
-            Python Multiplatform System for acquisition and reconstruction of
-                digital holograms that integrates multiple Machine Learning
-                algorithms that automates the entire process.
+            Design and implementation of a Python Multiplatform System for % version:long
+                acquisition and reconstruction of digital holograms that % version:long
+                integrates multiple Machine Learning algorithms that automates % version:long
+                the entire process. % version:long
+            Research and implementation of segmentation and classification % version:long
+                algorithms. % version:long
+            Co-authoring several research papers in Quantum Optics and Machine % version:long
+                Learning. % version:long
         }
 
-    \cventry
-        {2010--2011}
-        {Teacher}
-        {National University of Salta} {} {}
-        {
-            Extension courses: RESCD-EXA: 741/2011,  RESCD-EXA:495/2010 and
-                RESCD-EXA: 316/2011. GNU/Linux Debian Advanced Administration,
-                System and Network administration, Introduction to scripting
-                (Sh, Python, Perl, AWK) and services securing.
-        }
-
-    \cventry
-        {2011}
-        {Programmer}
-        {\href{http://github.com/pointtonull/S60Salesman}{S60Salesman}} {} {}
-        {
-            Point of Sales System for Traveling Salesman written on Python for
-                Symbian Smartphones.
-        }
-
-    \cventry
-        {2011}
-        {Development Leader}
-        {\href{http://github.com/pointtonull/Fiscal3G}{Fiscal3G}} {} {}
-        {
-            System to control Massive Distributed teams. Can handle
-                disconnection using SMS as secondary channel. Leader of team of
-                3.
-        }
+    \cventry          % version:long
+        {2010--2011}          % version:long
+        {Teacher}          % version:long
+        {National University of Salta} {} {}          % version:long
+        {          % version:long
+            Extension courses: RESCD-EXA: 741/2011,  RESCD-EXA:495/2010 and % version:long
+                RESCD-EXA: 316/2011. GNU/Linux Debian Advanced Administration, % version:long
+                System and Network administration, Introduction to scripting % version:long
+                (Sh, Python, Perl, AWK) and services securing. % version:long
+        }          % version:long
 
     \cventry
         {2010--2011}
         {Systems Development Manager}
         {\href{http://ianux.com.ar}{IANUX Solutions}} {} {}
         {
-            Planning and management of development projects. Survey, analysis
-                and design of systems. Staff in charge 2. We have implemented
-                solutions for different clients using Django and TurboGears.
+            Planning and management of development projects. Survey, analysis % version:long
+                and design of systems. Staff in charge 2. We have implemented % version:long
+                solutions for different clients using Django and TurboGears. % version:long
+            \begin {itemize} % version:long
+                \item \href{http://github.com/pointtonull/S60Salesman}{S60Salesman} % version:long
+                      Point of Sales System for Traveling Salesman written on Python for % version:long
+                      Symbian Smartphones. % version:long
+                \item \href{http://github.com/pointtonull/Fiscal3G}{Fiscal3G} % version:long
+                      System to control Massive Distributed teams. Can handle % version:long
+                      disconnection using SMS as secondary channel. Leader of team of % version:long
+                      3. % version:long
+            \end {itemize} % version:long
         }
 
-    \cventry
-        {2009}
-        {Programmer}
-        {\href{http://tokuah.com.ar}{Tokuah}} {} {}
-        {
-            Design and implementation of an educational game using
-                Python/Pygame.
+    \cventry          % version:long
+        {2009}          % version:long
+        {Programmer}          % version:long
+        {\href{http://tokuah.com.ar}{Tokuah}} {} {}          % version:long
+        {          % version:long
+            Design and implementation of an educational game using          % version:long
+                Python/Pygame.          % version:long
             The project sought to instill values of respect                      % version:long
                 toward the native populations.                                   % version:long
-        }
+        }          % version:long
 
     \cventry
         {2008--2009}
@@ -179,16 +267,16 @@
             Intensive use of Scientific Python Stack and Data Mining.            % version:long
         }
 
-    \cventry
-        {2008}
-        {Analyst / Programmer}
-        {COMPTI} {} {}
-        {
+    \cventry          % version:long
+        {2008}          % version:long
+        {Analyst / Programmer}          % version:long
+        {COMPTI} {} {}          % version:long
+        {          % version:long
             Design and implementation of a e-commerce System on top of           % version:long
             Sachmo/Django.                                                       % version:long
             Implementation of an API to price VoIP services over Python-SIP and  % version:long
             Asterisk.                                                            % version:long
-        }
+        }          % version:long
 
     \cventry
         {2007--2008}
@@ -386,71 +474,117 @@
 \section{Selected Open Source Projects}
 
 %    % FSD
-%    \cventry{}{\href{https://github.com/pointtonull/browser}{BROWSER}} % title:fsd
-%        {Python Library for statefull browser emulation, used for web-scrapping and security research.}{}{}{} % title:fsd
-%    \cventry{}{\href{https://github.com/pointtonull/golsoft}{GOLSoft}} % title:fsd
-%        {Digital Holography Processing Framework designed to train Deep Learning algorithms.}{}{}{} % title:fsd
-%    \cventry{}{\href{https://github.com/pointtonull/Fisgon}{Fisgon}} % title:fsd
-%        {Security PoC to show how easy is to exploit low-severity credentials leaks when the users reuse their passwords.}{}{}{} % title:fsd
+%    \cventry{}{\href{https://github.com/pointtonull/browser}{BROWSER}}
+%        {Python Library for statefull browser emulation, used for web-scrapping and security research.}{}{}{}
+%    \cventry{}{\href{https://github.com/pointtonull/golsoft}{GOLSoft}}
+%        {Digital Holography Processing Framework designed to train Deep Learning algorithms.}{}{}{}
+%    \cventry{}{\href{https://github.com/pointtonull/Fisgon}{Fisgon}}
+%        {Security PoC to show how easy is to exploit low-severity credentials leaks when the users reuse their passwords.}{}{}{}
 
-    % SSE
+    \cventry{}
+        {\href{https://github.com/pointtonull/golsoft}{GOLSoft}}
+        {Digital Holography Framework designed
+         to train Deep Learning algorithms}
+        {}{}{}
 
-    \cventry{}                                                                         % title:sse
-        {\href{https://github.com/pointtonull/golsoft}{GOLSoft}}                       % title:sse
-        {Digital Holography Framework designed                                         % title:sse
-         to train Deep Learning algorithms}                                            % title:sse
-        {}{}{}                                                                         % title:sse
+    \cventry{}
+        {\href{https://github.com/pointtonull/vimrenamer}{VimRenamer}}
+        {Vim extension to bulk-edit tons of files with some few key-strokes}
+        {}{}{}
 
-    \cventry{}                                                                         % title:sse
-        {\href{https://github.com/pointtonull/vimrenamer}{VimRenamer}}                 % title:sse
-        {Vim extension to bulk-edit tons of files with some few key-strokes}           % title:sse
-        {}{}{}                                                                         % title:sse
+    \cventry{}
+        {\href{https://github.com/pointtonull/browser}{BROWSER}}
+        {Python Library for statefull browser emulation,
+         used for web-scrapping and security research}
+        {}{}{}
 
-    \cventry{}                                                                         % title:sse
-        {\href{https://github.com/pointtonull/browser}{BROWSER}}                       % title:sse
-        {Python Library for statefull browser emulation,                               % title:sse
-         used for web-scrapping and security research}                                 % title:sse
-        {}{}{}                                                                         % title:sse
+%    \cventry{}
+%        {\href{https://github.com/pointtonull/pyunwrap}{PyUnwrap}}
+%        {A efficient Ansi C wave unwrapper with python bindings}
+%        {}{}{}
 
-    % DE
-
-    \cventry{}                                                                          % title:de
-        {\href{https://github.com/pointtonull/golsoft}{GOLSoft}}                        % title:de
-        {Digital Holography Framework designed                                          % title:de
-         to train Deep Learning algorithms}                                             % title:de
-        {}{}{}                                                                          % title:de
-
-    \cventry{}                                                                          % title:de
-        {\href{https://github.com/pointtonull/vimrenamer}{VimRenamer}}                  % title:de
-        {Vim extension to bulk-edit tons of files with some few key-strokes}            % title:de
-        {}{}{}                                                                          % title:de
-
-    \cventry{}                                                                          % title:de
-        {\href{https://github.com/pointtonull/pyunwrap}{PyUnwrap}}                      % title:de
-        {A efficient Ansi C wave unwrapper with python bindings}                        % title:de
-        {}{}{}                                                                          % title:de
-
-    % PE
-
-    \cventry{}                                                                          % title:pe
-        {\href{https://github.com/pointtonull/golsoft}{GOLSoft}}                        % title:pe
-        {Digital Holography Framework designed                                          % title:pe
-         to train Deep Learning algorithms}                                             % title:pe
-        {}{}{}                                                                          % title:pe
-
-    \cventry{}                                                                          % title:pe
-        {\href{https://github.com/pointtonull/vimrenamer}{VimRenamer}}                  % title:pe
-        {Vim extension to bulk-edit tons of files with some few key-strokes}            % title:pe
-        {}{}{}                                                                          % title:pe
-
-    \cventry{}                                                                          % title:pe
-        {\href{https://github.com/pointtonull/pyunwrap}{PyUnwrap}}                      % title:pe
-        {A efficient Ansi C wave unwrapper with python bindings}                        % title:pe
-        {}{}{}                                                                          % title:pe
 
 \section{Complementary Formation}
 %\subsection{Systems Analyst}
 % \cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}  % arguments 3 to 6 are optional
+
+
+\cventry
+    {2020}
+    {Amazon Web Services: Data Analytics}
+    {LI Learning}
+    {LinkedIn}
+    {\textit{Score 100\%}}
+    {
+        Best practices, patterns, and tools for designing  % version:long
+        and implementing data analytics using AWS.         % version:long
+        Athena, RDS, and QuickSight.                       % version:long
+        Batching, micro-batching, and streaming.           % version:long
+        Data visualizations with QuickSight.               % version:long
+        Common analytics architecture patterns.            % version:long
+    }
+
+
+\cventry
+    {2019}
+    {Algorithmic Toolbox}
+    {License
+        \href{https://www.coursera.org/account/accomplishments/verify/RHEQF7SFADL6}
+        {RHEQF7SFADL6}
+    }
+    {Coursera}
+    {\textit{Score 100\%}}
+    {
+        Topics include:                              % version:long
+            Sorting and searching,                   % version:long
+            divide and conquer,                      % version:long
+            greedy algorithms,                       % version:long
+            and dynamic programming.                 % version:long
+            Solving computational problems,          % version:long
+            designing new algorithms,                % version:long
+            and implementing solutions efficiently.  % version:long
+    }
+
+\cventry
+    {2019}
+    {Learning Hadoop}
+    {LI Learning}
+    {LinkedIn}
+    {\textit{Score 100\%}}
+    {
+        Topics include:                                                         % version:long
+            CAP (consistency, availability, partitioning),                      % version:long
+            HBase vs Hadoop,                                                    % version:long
+            Hadoop Distributed File System (HDFS) vs other file systems,        % version:long
+            Hadoop cluster components,                                          % version:long
+            Distributions (Apache, Cloudera, Hortonworks and MapR),             % version:long
+            AWS and Microsoft cloud-hosted,                                     % version:long
+            Adding Hadoop libraries,                                            % version:long
+            MapReduce 1.0 vs 2.0,                                               % version:long
+            MapReduce Jobs,                                                     % version:long
+            Tuning a mapper,                                                    % version:long
+            Tuning a reducer,                                                   % version:long
+            Using a cache for lookups,                                          % version:long
+            Hive,                                                               % version:long
+            HQL Query Optimization,                                             % version:long
+            Quick introduction to (                                             % version:long
+                Pig,                                                            % version:long
+                Oozie,                                                          % version:long
+                Sqoop,                                                          % version:long
+                Flume,                                                          % version:long
+                ZooKeeper,                                                      % version:long
+                Impala,                                                         % version:long
+                Mahout,                                                         % version:long
+                Storm and                                                       % version:long
+                Apache Spark                                                    % version:long
+                ),                                                              % version:long
+            Connecting with (                                                   % version:long
+                Tableau,                                                        % version:long
+                D3,                                                             % version:long
+                BigML,                                                          % version:long
+                and new tools                                                   % version:long
+                ).                                                              % version:long
+    }
 
 \cventry
     {2018}
@@ -462,26 +596,26 @@
     {Michigan University}
     {\textit{Score 92.3\%}}
     {
-        Topics include:
-            Fluid Measurements,
-            Pixel to Em,
-            Dynamic change,
-            relative and absolute,
-            Media Queries,
-            Fluid Measurements and Media Queries,
-            Wire Frames,
-            Breakpoints,
-            Responsive Navigation,
-            Media Queries and breakpoints,
-            Twitter Bootstrap 4 (
-                Breakpoints,
-                Grid System,
-                Navigation,
-                Standards vs Convenience,
-                Responsive Images,
-                Tables,
-                Advanced Navigation
-                )
+        Topics include:                                                          % version:long
+            Fluid Measurements,                                                          % version:long
+            Pixel to Em,                                                          % version:long
+            Dynamic change,                                                          % version:long
+            relative and absolute,                                                          % version:long
+            Media Queries,                                                          % version:long
+            Fluid Measurements and Media Queries,                                                          % version:long
+            Wire Frames,                                                          % version:long
+            Breakpoints,                                                          % version:long
+            Responsive Navigation,                                                          % version:long
+            Media Queries and breakpoints,                                                          % version:long
+            Twitter Bootstrap 4 (                                                          % version:long
+                Breakpoints,                                                          % version:long
+                Grid System,                                                          % version:long
+                Navigation,                                                          % version:long
+                Standards vs Convenience,                                                          % version:long
+                Responsive Images,                                                          % version:long
+                Tables,                                                          % version:long
+                Advanced Navigation                                                          % version:long
+                )                                                          % version:long
     }
 
 \cventry
@@ -494,23 +628,23 @@
     {Michigan University}
     {\textit{Score 86.7\%}}
     {
-        Topics include:
-            ML Strategy,
-            Comparing to human-level performance,
-            Carrying out error analysis,
-            Cleaning up incorrectly labeled data,
-            Iterative improvement,
-            Mismatched training and dev/test set,
-            Training and testing on different distributions,
-            Bias and Variance with mismatched data distributions,
-            Addressing data mismatch,
-            Learning from multiple tasks,
-            Transfer learning,
-            Multi-task learning,
-            End-to-end deep learning,
-            Case: Flight simulator,
-            Case: Bird recognition,
-            Case: Autonomous driving.
+        Topics include:                                                          % version:long
+            ML Strategy,                                                          % version:long
+            Comparing to human-level performance,                                                          % version:long
+            Carrying out error analysis,                                                          % version:long
+            Cleaning up incorrectly labeled data,                                                          % version:long
+            Iterative improvement,                                                          % version:long
+            Mismatched training and dev/test set,                                                          % version:long
+            Training and testing on different distributions,                                                          % version:long
+            Bias and Variance with mismatched data distributions,                                                          % version:long
+            Addressing data mismatch,                                                          % version:long
+            Learning from multiple tasks,                                                          % version:long
+            Transfer learning,                                                          % version:long
+            Multi-task learning,                                                          % version:long
+            End-to-end deep learning,                                                          % version:long
+            Case: Flight simulator,                                                          % version:long
+            Case: Bird recognition,                                                          % version:long
+            Case: Autonomous driving.                                                          % version:long
     }
 
 \cventry
@@ -523,33 +657,33 @@
     {University of Michigan}
     {\textit{Score 98.7\%}}
     {
-        Topics include:
-            DOM,
-            DOM with OOP,
-            Output,
-            Variables,
-            Data Types,
-            Operators and Expressions,
-            CodePen,
-            Debugging,
-            Functions,
-            Code Placement and organization,
-            Events and Functions,
-            "this",
-            Arrays and Looping,
-            Advanced Coding Techniques,
-            JavaScript Iteration,
-            Flow Of Control,
-            Advanced Conditionals,
-            Common Errors,
-            Validating Form Data,
-            Forms (
-                Validation,
-                Checkboxes and Radio Buttons,
-                Using Forms on Your Site
-                ),
-            JQuery,
-            Autocomplete with JavaScript.
+        Topics include:                                                          % version:long
+            DOM,                                                          % version:long
+            DOM with OOP,                                                          % version:long
+            Output,                                                          % version:long
+            Variables,                                                          % version:long
+            Data Types,                                                          % version:long
+            Operators and Expressions,                                                          % version:long
+            CodePen,                                                          % version:long
+            Debugging,                                                          % version:long
+            Functions,                                                          % version:long
+            Code Placement and organization,                                                          % version:long
+            Events and Functions,                                                          % version:long
+            "this",                                                          % version:long
+            Arrays and Looping,                                                          % version:long
+            Advanced Coding Techniques,                                                          % version:long
+            JavaScript Iteration,                                                          % version:long
+            Flow Of Control,                                                          % version:long
+            Advanced Conditionals,                                                          % version:long
+            Common Errors,                                                          % version:long
+            Validating Form Data,                                                          % version:long
+            Forms (                                                          % version:long
+                Validation,                                                          % version:long
+                Checkboxes and Radio Buttons,                                                          % version:long
+                Using Forms on Your Site                                                          % version:long
+                ),                                                          % version:long
+            JQuery,                                                          % version:long
+            Autocomplete with JavaScript.                                                          % version:long
     }
 
 \cventry
@@ -562,42 +696,42 @@
     {deeplearning.ai}
     {\textit{Score 96.1\%}}
     {
-        Topics include:
-            Train / Dev / Test sets
-            Bias / Variance
-            Basic Recipe for ML
-            Regularization
-            Why? (
-                Dropout,
-                Other methods
-                )
-            Normalizing inputs
-            Vanishing / Exploding gradients
-            Weight Initialization
-            Numerical approximation of gradients
-            Gradient checking
-            Initialization
-            Regularization
-            Optimization algorithms
-            Mini-batch gradient descent
-            Exponentially weighted averages
-            Bias correction
-            Gradient descent with momentum
-            RMSprop
-            Adam optimization algorithm
-            Learning rate decay
-            The problem of local optima
-            Optimization algorithms
-            Hyperparameter tuning, Batch Normalization and Programming Frameworks
-            Tuning process
-            Using an appropriate scale to pick hyperparameters
-            Pandas vs. Caviar
-            Normalizing activations in a network
-            Fitting Batch Norm into a neural network
-            Batch Norm at test time
-            Softmax Regression
-            Training a softmax classifier
-            TensorFlow
+        Topics include:                                                          % version:long
+            Train / Dev / Test sets                                                          % version:long
+            Bias / Variance                                                          % version:long
+            Basic Recipe for ML                                                          % version:long
+            Regularization                                                          % version:long
+            Why? (                                                          % version:long
+                Dropout,                                                          % version:long
+                Other methods                                                          % version:long
+                )                                                          % version:long
+            Normalizing inputs                                                          % version:long
+            Vanishing / Exploding gradients                                                          % version:long
+            Weight Initialization                                                          % version:long
+            Numerical approximation of gradients                                                          % version:long
+            Gradient checking                                                          % version:long
+            Initialization                                                          % version:long
+            Regularization                                                          % version:long
+            Optimization algorithms                                                          % version:long
+            Mini-batch gradient descent                                                          % version:long
+            Exponentially weighted averages                                                          % version:long
+            Bias correction                                                          % version:long
+            Gradient descent with momentum                                                          % version:long
+            RMSprop                                                          % version:long
+            Adam optimization algorithm                                                          % version:long
+            Learning rate decay                                                          % version:long
+            The problem of local optima                                                          % version:long
+            Optimization algorithms                                                          % version:long
+            Hyperparameter tuning, Batch Normalization and Programming Frameworks                                                          % version:long
+            Tuning process                                                          % version:long
+            Using an appropriate scale to pick hyperparameters                                                          % version:long
+            Pandas vs. Caviar                                                          % version:long
+            Normalizing activations in a network                                                          % version:long
+            Fitting Batch Norm into a neural network                                                          % version:long
+            Batch Norm at test time                                                          % version:long
+            Softmax Regression                                                          % version:long
+            Training a softmax classifier                                                          % version:long
+            TensorFlow                                                          % version:long
     }
 
 \cventry
@@ -607,23 +741,23 @@
     {LinkedIn}
     {\textit{Score 100\%}}
     {
-        Topics include:
-            GraphiQL and the GitHub API,
-            GraphQL Queries,
-            Understanding Schemas,
-            Query the \_\_schema,
-            Handling Data (
-                Aliases,
-                Fragments,
-                Nested fields,
-                Connections,
-                Pagination
-            ),
-            Operations and Variables (
-                Operation names,
-                variable definitions,
-                mutations
-            ).
+        Topics include:                                                          % version:long
+            GraphiQL and the GitHub API,                                                          % version:long
+            GraphQL Queries,                                                          % version:long
+            Understanding Schemas,                                                          % version:long
+            Query the \_\_schema,                                                          % version:long
+            Handling Data (                                                          % version:long
+                Aliases,                                                          % version:long
+                Fragments,                                                          % version:long
+                Nested fields,                                                          % version:long
+                Connections,                                                          % version:long
+                Pagination                                                          % version:long
+            ),                                                          % version:long
+            Operations and Variables (                                                          % version:long
+                Operation names,                                                          % version:long
+                variable definitions,                                                          % version:long
+                mutations                                                          % version:long
+            ).                                                          % version:long
     }
 
 \cventry
@@ -633,18 +767,18 @@
     {LinkedIn}
     {\textit{Score 100\%}}
     {
-        Topics include:
-            Supervised machine learning for value prediction,
-            Find the best weights automatically,
-            An Overview of Building a Machine Learning System,
-            Introduction to NumPy, scikit-learn, and pandas,
-            Gradient boosting,
-            Training Data,
-            Feature engineering,
-            Feature selection,
-            Coding Our System,
-            Measure accuracy,
-            Overfitting and underfitting.
+        Topics include:                                                          % version:long
+            Supervised machine learning for value prediction,                                                          % version:long
+            Find the best weights automatically,                                                          % version:long
+            An Overview of Building a Machine Learning System,                                                          % version:long
+            Introduction to NumPy, scikit-learn, and pandas,                                                          % version:long
+            Gradient boosting,                                                          % version:long
+            Training Data,                                                          % version:long
+            Feature engineering,                                                          % version:long
+            Feature selection,                                                          % version:long
+            Coding Our System,                                                          % version:long
+            Measure accuracy,                                                          % version:long
+            Overfitting and underfitting.                                                          % version:long
     }
 
 \cventry
@@ -654,23 +788,23 @@
     {LinkedIn}
     {\textit{Score 100\%}}
     {
-        Topics include:
-            Jupyter,
-            Data Munging,
-            Data Visualization,
-            Math and Statistics,
-            NumPy arithmetic,
-            Dimensionality Reduction,
-            Explanatory factor analysis,
-            Principal component analysis (PCA),
-            Outlier Analysis,
-            Extreme value analysis using univariate methods,
-            Multivariate analysis for outlier detection,
-            Cluster Analysis,
-            Network Analysis with NetworkX,
-            Basic Algorithmic Learning,
-            Web-based Data Visualizations with Plotly,
-            Web Scraping with Beautiful Soup.
+        Topics include:                                                          % version:long
+            Jupyter,                                                          % version:long
+            Data Munging,                                                          % version:long
+            Data Visualization,                                                          % version:long
+            Math and Statistics,                                                          % version:long
+            NumPy arithmetic,                                                          % version:long
+            Dimensionality Reduction,                                                          % version:long
+            Explanatory factor analysis,                                                          % version:long
+            Principal component analysis (PCA),                                                          % version:long
+            Outlier Analysis,                                                          % version:long
+            Extreme value analysis using univariate methods,                                                          % version:long
+            Multivariate analysis for outlier detection,                                                          % version:long
+            Cluster Analysis,                                                          % version:long
+            Network Analysis with NetworkX,                                                          % version:long
+            Basic Algorithmic Learning,                                                          % version:long
+            Web-based Data Visualizations with Plotly,                                                          % version:long
+            Web Scraping with Beautiful Soup.                                                          % version:long
     }
 
 \cventry
@@ -683,25 +817,25 @@
     {University of Michigan}
     {\textit{Score 95.7\%}}
     {
-        Topics include:
-            The Evolution of HTML,
-            Page Requests,
-            Browsers,
-            Editors,
-            The Document Object Model [DOM],
-            HTML5 Tags and Syntax,
-            Semantic Tags,
-            Template Page,
-            Images,
-            Hyperlinks,
-            Multimedia,
-            Tables,
-            Useful Tags,
-            Accessibility,
-            Validation,
-            Hosting,
-            cPanel,
-            Using SFTP.
+        Topics include:                                                          % version:long
+            The Evolution of HTML,                                                          % version:long
+            Page Requests,                                                          % version:long
+            Browsers,                                                          % version:long
+            Editors,                                                          % version:long
+            The Document Object Model [DOM],                                                          % version:long
+            HTML5 Tags and Syntax,                                                          % version:long
+            Semantic Tags,                                                          % version:long
+            Template Page,                                                          % version:long
+            Images,                                                          % version:long
+            Hyperlinks,                                                          % version:long
+            Multimedia,                                                          % version:long
+            Tables,                                                          % version:long
+            Useful Tags,                                                          % version:long
+            Accessibility,                                                          % version:long
+            Validation,                                                          % version:long
+            Hosting,                                                          % version:long
+            cPanel,                                                          % version:long
+            Using SFTP.                                                          % version:long
     }
 
 \cventry
@@ -711,17 +845,17 @@
     {LinkedIn}
     {\textit{Score 100\%}}
     {
-        Topics include:
-            Monitoring Tools,
-            Understand CloudWatch,
-            Extend CloudWatch,
-            Explore AWS Config,
-            Add Managed Config Rules,
-            Beyond Traditional Monitoring,
-            Understand AWS logging,
-            Understand Elasticsearch,
-            Application performance management,
-            Link CloudWatch and Lambda.
+        Topics include:                                                          % version:long
+            Monitoring Tools,                                                          % version:long
+            Understand CloudWatch,                                                          % version:long
+            Extend CloudWatch,                                                          % version:long
+            Explore AWS Config,                                                          % version:long
+            Add Managed Config Rules,                                                          % version:long
+            Beyond Traditional Monitoring,                                                          % version:long
+            Understand AWS logging,                                                          % version:long
+            Understand Elasticsearch,                                                          % version:long
+            Application performance management,                                                          % version:long
+            Link CloudWatch and Lambda.                                                          % version:long
     }
 
 \cventry
@@ -734,28 +868,28 @@
     {University of Michigan}
     {\textit{Score 97.9\%}}
     {
-        Topics include:
-            Cascading Style Sheets,
-            Display and Visibility,
-            Styling Syntax and Theory,
-            Box Model,
-            Advanced Selectors,
-            Shorthand rules,
-            Browser Capabilites,
-            Headings,
-            Homework Two Description,
-            Advanced Style (
-                Psuedo-classes,
-                Pseudo-elements,
-                Transitions,
-                and Positioning
-            ),
-            Transforms,
-            Animation,
-            Tables,
-            Navigation Menus,
-            Accessible Navigation,
-            Accessibility of Headings,
+        Topics include:                                                          % version:long
+            Cascading Style Sheets,                                                          % version:long
+            Display and Visibility,                                                          % version:long
+            Styling Syntax and Theory,                                                          % version:long
+            Box Model,                                                          % version:long
+            Advanced Selectors,                                                          % version:long
+            Shorthand rules,                                                          % version:long
+            Browser Capabilites,                                                          % version:long
+            Headings,                                                          % version:long
+            Homework Two Description,                                                          % version:long
+            Advanced Style (                                                          % version:long
+                Psuedo-classes,                                                          % version:long
+                Pseudo-elements,                                                          % version:long
+                Transitions,                                                          % version:long
+                and Positioning                                                          % version:long
+            ),                                                          % version:long
+            Transforms,                                                          % version:long
+            Animation,                                                          % version:long
+            Tables,                                                          % version:long
+            Navigation Menus,                                                          % version:long
+            Accessible Navigation,                                                          % version:long
+            Accessibility of Headings,                                                          % version:long
     }
 
 \cventry
@@ -765,24 +899,24 @@
     {LinkedIn}
     {\textit{Score 100\%}}
     {
-        Topics include:
-            Cloud health monitoring,
-            Cloud performance monitoring,
-            Cloud security monitoring,
-            Cloud governance monitoring,
-            Short-term cloud monitoring analytics,
-            Long-term cloud monitoring analytics,
-            Cloud cost monitoring,
-            AWS CloudWatch,
-            Datadog,
-            Librato CloudWatch,
-            Cloud Cruiser,
-            Microsoft cloud monitoring,
-            Rackspace cloud monitoring,
-            Other players,
-            Understanding requirements,
-            Creating plan,
-            Selecting tools.
+        Topics include:                                                          % version:long
+            Cloud health monitoring,                                                          % version:long
+            Cloud performance monitoring,                                                          % version:long
+            Cloud security monitoring,                                                          % version:long
+            Cloud governance monitoring,                                                          % version:long
+            Short-term cloud monitoring analytics,                                                          % version:long
+            Long-term cloud monitoring analytics,                                                          % version:long
+            Cloud cost monitoring,                                                          % version:long
+            AWS CloudWatch,                                                          % version:long
+            Datadog,                                                          % version:long
+            Librato CloudWatch,                                                          % version:long
+            Cloud Cruiser,                                                          % version:long
+            Microsoft cloud monitoring,                                                          % version:long
+            Rackspace cloud monitoring,                                                          % version:long
+            Other players,                                                          % version:long
+            Understanding requirements,                                                          % version:long
+            Creating plan,                                                          % version:long
+            Selecting tools.                                                          % version:long
     }
 
 \cventry
@@ -795,75 +929,76 @@
     {deeplearning.ai}
     {\textit{Score 100\%}}
     {
-        Topics include:
-            Introduction to deep learning,
-            Supervised Learning with Neural Networks,
-            Neural Networks Basics,
-            Binary Classification,
-            Logistic Regression,
-            Logistic Regression Cost Function,
-            Gradient Descent,
-            Derivatives,
-            Computation graph,
-            Derivatives with a Computation Graph,
-            Logistic Regression Gradient Descent,
-            Vectorization,
-            Broadcasting in Python,
-            Jupyter/iPython Notebooks,
-            Logistic Regression with a Neural Network mindset,
-            Shallow neural networks,
-            Neural Network Representation,
-            Computing a Neural Network's Output,
-            Vectorizing across multiple examples,
-            Explanation for Vectorized Implementation,
-            Activation functions,
-            Derivatives of activation functions,
-            Gradient descent for Neural Networks,
-            Backpropagation intuition,
-            Random Initialization,
-            Planar data classification with a hidden layer,
-            Shallow Neural Networks,
-            Deep Neural Networks,
-            Deep L-layer neural network,
-            Forward Propagation,
-            Deep representations?,
-            Building blocks of deep neural networks,
-            Forward and Backward Propagation,
-            Parameters vs Hyperparameters,
-            Applications.
+        Topics include:                                                          % version:long
+            Introduction to deep learning,                                                          % version:long
+            Supervised Learning with Neural Networks,                                                          % version:long
+            Neural Networks Basics,                                                          % version:long
+            Binary Classification,                                                          % version:long
+            Logistic Regression,                                                          % version:long
+            Logistic Regression Cost Function,                                                          % version:long
+            Gradient Descent,                                                          % version:long
+            Derivatives,                                                          % version:long
+            Computation graph,                                                          % version:long
+            Derivatives with a Computation Graph,                                                          % version:long
+            Logistic Regression Gradient Descent,                                                          % version:long
+            Vectorization,                                                          % version:long
+            Broadcasting in Python,                                                          % version:long
+            Jupyter/iPython Notebooks,                                                          % version:long
+            Logistic Regression with a Neural Network mindset,                                                          % version:long
+            Shallow neural networks,                                                          % version:long
+            Neural Network Representation,                                                          % version:long
+            Computing a Neural Network's Output,                                                          % version:long
+            Vectorizing across multiple examples,                                                          % version:long
+            Explanation for Vectorized Implementation,                                                          % version:long
+            Activation functions,                                                          % version:long
+            Derivatives of activation functions,                                                          % version:long
+            Gradient descent for Neural Networks,                                                          % version:long
+            Backpropagation intuition,                                                          % version:long
+            Random Initialization,                                                          % version:long
+            Planar data classification with a hidden layer,                                                          % version:long
+            Shallow Neural Networks,                                                          % version:long
+            Deep Neural Networks,                                                          % version:long
+            Deep L-layer neural network,                                                          % version:long
+            Forward Propagation,                                                          % version:long
+            Deep representations?,                                                          % version:long
+            Building blocks of deep neural networks,                                                          % version:long
+            Forward and Backward Propagation,                                                          % version:long
+            Parameters vs Hyperparameters,                                                          % version:long
+            Applications.                                                          % version:long
     }
 
-\cventry
-    {2017}
-    {JavaScript Essential}
-    {LI Learning}
-    {LinkedIn}
-    {\textit{Score 100\%}}
-    {
-        Topics include:
-            Tools for JS Development,
-            Working with data,
-            Arrays,
-            Functions and Objects,
-            Variable scope,
-            ES2015,
-            Object constructors,
-            DOM Manipulation,
-            querySelector methods,
-            Use CSS with JS,
-            Events,
-            Debug JS,
-            Linting,
-            Minification.
-    }
 
-\cventry
-    {2017}
-    {Building Deep Learning Applications with Keras 2.0}
-    {LI Learning}
-    {LinkedIn}
-    {\textit{Score 100\%}}
-    {
+\cventry                                                          % version:long
+    {2017}                                                          % version:long
+    {JavaScript Essential}                                                          % version:long
+    {LI Learning}                                                          % version:long
+    {LinkedIn}                                                          % version:long
+    {\textit{Score 100\%}}                                                          % version:long
+    {                                                          % version:long
+        Topics include:                                                          % version:long
+            Tools for JS Development,                                                          % version:long
+            Working with data,                                                          % version:long
+            Arrays,                                                          % version:long
+            Functions and Objects,                                                          % version:long
+            Variable scope,                                                          % version:long
+            ES2015,                                                          % version:long
+            Object constructors,                                                          % version:long
+            DOM Manipulation,                                                          % version:long
+            querySelector methods,                                                          % version:long
+            Use CSS with JS,                                                          % version:long
+            Events,                                                          % version:long
+            Debug JS,                                                          % version:long
+            Linting,                                                          % version:long
+            Minification.                                                          % version:long
+    }                                                          % version:long
+
+\cventry                                                          % version:long
+    {2017}                                                          % version:long
+    {Building Deep Learning Applications with Keras 2.0}                                                          % version:long
+    {LI Learning}                                                          % version:long
+    {LinkedIn}                                                          % version:long
+    {\textit{Score 100\%}}                                                          % version:long
+    {                                                          % version:long
         Topics include:                                                          % version:long,academic
             Keras Overview,                                                      % version:long,academic
             Setting Up,                                                          % version:long,academic
@@ -872,15 +1007,15 @@
             Pre-Trained Models in Keras,                                         % version:long,academic
             Monitoring a Keras model with TensorBoardd,                          % version:long,academic
             Using a trained Keras Model in Google Cloud.                         % version:long,academic
-    }
+    }                                                          % version:long
 
-\cventry
-    {2016}
-    {CSSLP: Secure Software Implementation and Coding}
-    {Certified Secure Software Lifecycle Professinoal}
-    {Skillsoft}
-    {\textit{Score 100\%}}
-    {
+\cventry                                                          % version:long
+    {2016}                                                          % version:long
+    {CSSLP: Secure Software Implementation and Coding}                                                          % version:long
+    {Certified Secure Software Lifecycle Professinoal}                                                          % version:long
+    {Skillsoft}                                                          % version:long
+    {\textit{Score 100\%}}                                                          % version:long
+    {                                                          % version:long
         Topics include:                                                          % version:long,academic
             Declarative versus programmatic security,                            % version:long,academic
             OWASP and CWE,                                                       % version:long,academic
@@ -893,15 +1028,15 @@
                 code analysis,                                                   % version:long,academic
                 and anti-tampering techniques                                    % version:long,academic
             ).                                                                   % version:long,academic
-    }
+    }                                                          % version:long
 
-\cventry
-    {2016}
-    {AWS Business Professional}
-    {Training and Certification}
-    {amazon.com}
-    {\textit{Score 100\%}}
-    {
+\cventry                                                          % version:long
+    {2016}                                                          % version:long
+    {AWS Business Professional}                                                          % version:long
+    {Training and Certification}                                                          % version:long
+    {amazon.com}                                                          % version:long
+    {\textit{Score 100\%}}                                                          % version:long
+    {                                                          % version:long
         Topics include:                                                          % version:long,academic
             The AWS Business Professional training program provides              % version:long,academic
                 participants with basic knowledge of AWS products                % version:long,academic
@@ -913,15 +1048,15 @@
                 articulating the business benefits of AWS services               % version:long,academic
                 and how AWS solutions can help solve common business             % version:long,academic
                 problems.                                                        % version:long,academic
-    }
+    }                                                          % version:long
 
-\cventry
-    {2012}
-    {Neural Networks for Machine Learning}
-    {MOOC by Prof. Geoffrey Hinton}
-    {Toronto University}
-    {}
-    {
+\cventry                                                          % version:long
+    {2012}                                                          % version:long
+    {Neural Networks for Machine Learning}                                                          % version:long
+    {MOOC by Prof. Geoffrey Hinton}                                                          % version:long
+    {Toronto University}                                                          % version:long
+    {}                                                          % version:long
+    {                                                          % version:long
         Topics include:                                                          % version:long
             The Perceptron learning procedure.                                   % version:long
             The backpropagation.                                                 % version:long
@@ -936,15 +1071,15 @@
             Deep Belief Nets.                                                    % version:long
             Deep neural nets with generative pre-training.                       % version:long
             Modeling hierarchical structure with neural nets.                    % version:long
-    }
+    }                                                          % version:long
 
-\cventry
-    {2012}
-    {Social Network Analysis}
-    {MOOC by Prof. Lada Adamic}
-    {Michigan University}
-    {}
-    {
+\cventry                                                          % version:long
+    {2012}                                                          % version:long
+    {Social Network Analysis}                                                          % version:long
+    {MOOC by Prof. Lada Adamic}                                                          % version:long
+    {Michigan University}                                                          % version:long
+    {}                                                          % version:long
+    {                                                          % version:long
         Topics include:                                                          % version:long
             Networks,                                                            % version:long
             Crowds and Markets.                                                  % version:long
@@ -960,15 +1095,15 @@
             Cool and unusual applications of SNA@.                               % version:long
             SNA and social media.                                                % version:long
             Network resilience.                                                  % version:long
-    }
+    }                                                          % version:long
 
-\cventry
-    {2012}
-    {Machine Learning}
-    {MOOC by Prof. Andrew Ng}
-    {Stanford University}
-    {\textit{Score 100\%}}
-    {
+\cventry                                                          % version:long
+    {2012}                                                          % version:long
+    {Machine Learning}                                                          % version:long
+    {MOOC by Prof. Andrew Ng}                                                          % version:long
+    {Stanford University}                                                          % version:long
+    {\textit{Score 100\%}}                                                          % version:long
+    {                                                          % version:long
         Topics include:                                                          % version:long
             Supervised learning (                                                % version:long
                     parametric/non-parametric algorithms,                        % version:long
@@ -995,16 +1130,16 @@
                 audio,                                                           % version:long
                 database mining,                                                 % version:long
                 and other areas.                                                 % version:long
-    }
+    }                                                          % version:long
 
-\cventry
-    {2012}
-    {Model Thinking}
-    {MOOC by Prof. Scott E. Page - Ann Arbor}
-    {Michigan University}
-    {
+\cventry                                                          % version:long
+    {2012}                                                          % version:long
+    {Model Thinking}                                                          % version:long
+    {MOOC by Prof. Scott E. Page - Ann Arbor}                                                          % version:long
+    {Michigan University}                                                          % version:long
+    {                                                          % version:long
         \textit{Score 100\%} % version:long
-    }
+    }                                                          % version:long
     {
         Topics include:                                                          % version:long
             Peer Effects.                                                        % version:long
@@ -1028,7 +1163,7 @@
             Diversity and Complexity,                                            % version:long
             Diversity and Prediction,                                            % version:long
        Collective Prediction.                                                    % version:long
-    }
+    }                                                          % version:long
 
 %\cventry{2004}{Computer Technician}{`Dr. Facundo de Zuviría'}{Salta}{\textit{Promedio: 7.55}}{}
 %\cventry{2001}{e-Business, Security, Wireless and Ututo Linux}{`María del Rosario de San Nicolás'}{Salta}{}{}
@@ -1062,10 +1197,9 @@
 %Speak\hspace{5.6ex}(Low)}{Translator of the \href{`http://www.esdebian.org/dsa'}{`Debian Security Announces'} and another Technical Documents.}
 
 
-%\section{Notes}
-%%% % \cvline{hobby 1}{\small Descripción}
-%	\cvline{Resume}{This is not an exhaustive enumeration; have been included only the most relevant items.}
-%	\cvline{References}{References are not included as attention to the privacy of my former employers, these will be made available on request.}
+\section{Notes} % version:short
+%% % \cvline{hobby 1}{\small Descripción}
+    \cvline{Resume}{This is not an exhaustive enumeration. You can email me to request a longer version}  % version:short
 
 %\closesection{}                   % needed to renewcommands
 %\renewcommand{\listitemsymbol}{-} % change the symbol for lists
@@ -1078,9 +1212,8 @@
 
 %\section{Extra 2}
 %\cvlistdoubleitem[\Neutral]{Item 3}{}
-%\cvlistdoubleitem[\Neutral]{Item 1}{Item 4} % title:sse
-%\cvlistdoubleitem[\Neutral]{Item 2}{Item 5} % title:pe
-%\cvlistdoubleitem[\Neutral]{Item 2}{Item 5} % title:fsd
+%\cvlistdoubleitem[\Neutral]{Item 1}{Item 4}
+%\cvlistdoubleitem[\Neutral]{Item 2}{Item 5}
 
 \end{document}
 
